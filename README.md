@@ -3,7 +3,7 @@
 ## 1. Introduction
 
 In military operations, the critical task of diffusing explosives demands a blend of precision, safety, and technological advancement. Our focus centers on a specialized robot—a robust four-wheeled vehicle complemented by a five-degree-of-freedom (5 DOF) manipulator arm. Designed to be deployed in military environments, the robot stands equipped with large wheels for navigating challenging terrains and a manipulator arm with a claw-like end-effector.
-<p align="Left">
+<p align="center">
   <img src="https://github.com/Suraj-Kalwaghe/Anti-Kaboom-/assets/90511687/3eb98c86-160b-4356-a393-3b27f1d2d487" width="60%" title="Isometric View">
 </p>
 The robot model is designed using SolidWorks (CAD software), and then the kinematics are simulated in Gazebo using ROS2. We utilize the Denavit-Hartenberg (D-H) parameters to define the manipulator arms kinematic properties. We delve into the mathematical formulations of forward and inverse kinematics, explaining the methodologies employed to determine both end-effector position and manipulator arm configurations.
